@@ -50,8 +50,9 @@ ll modMul(ll a, ll b) { return ((a % MOD) * (b % MOD)) % MOD; }
  
 void solve() {
     int n ; cin >> n ;
-    map<ll,int> cnt ;
- 
+    // map<ll,int> cnt ;
+    // low memory
+    vector<int> cnt(1e6+5,0) ;
     vector<int> a(n) ;
  
     ll totalsum = 0 ;
@@ -64,12 +65,12 @@ void solve() {
     vector<int> sol ;
     for0(i,n) {
         ll target = totalsum - a[i] ;
-        if(target % 2)
+        if(target % 2  || target > 2e6)
             continue ;
         
         cnt[a[i]]-- ;
  
-        if (cnt.count(target / 2) && cnt[target / 2] > 0) 
+        if (cnt[target / 2] > 0) 
             sol.pb(i+1) ;
  
         cnt[a[i]]++ ;
