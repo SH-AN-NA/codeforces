@@ -55,10 +55,16 @@ void solve() {
         if(s[i]==s[i-1]) {
             char right = (i + 1 < n) ? s[i+1] : ' ';
  
-            for (char c = 'a'; c <= 'z'; c++) {
+            // for (char c = 'a'; c <= 'z'; c++) {
+            //     if (c != s[i-1] && c != right) {
+            //         s[i] = c;
+            //         break ; 
+            //     }
+            // }
+            for (char c : {'a', 'b', 'c'}) {
                 if (c != s[i-1] && c != right) {
                     s[i] = c;
-                    break ; 
+                    break;
                 }
             }
         }
