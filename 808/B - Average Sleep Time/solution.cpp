@@ -65,7 +65,7 @@ void solve() {
         sum += pfx[r] - pfx[l] ;
         l++ ;r++ ;
     }
-    cout << fixed << setprecision(10)<< sum/(n+1-k) ;
+    cout << setprecision(10)<< sum/(n+1-k) ; // new thing
 }
  
 int main() {
