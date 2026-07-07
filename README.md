@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 76 | 20 |
+| 77 | 20 |
 
 ---
 
@@ -21,14 +21,14 @@
 - [data structures](#data-structures) (3)
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (4)
-- [games](#games) (2)
+- [games](#games) (3)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (23)
+- [greedy](#greedy) (24)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (17)
-- [math](#math) (36)
+- [math](#math) (37)
 - [number theory](#number-theory) (8)
-- [sortings](#sortings) (8)
+- [sortings](#sortings) (9)
 - [strings](#strings) (5)
 - [trees](#trees) (1)
 - [two pointers](#two-pointers) (2)
@@ -134,6 +134,7 @@
 |---|---------|------------|----------|
 | 1858A | [Buttons](https://codeforces.com/contest/1858/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1858/A%20-%20Buttons/solution.cpp) |
 | 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.cpp) |
+| 1931E | [Anna and the Valentine's Day Gift](https://codeforces.com/contest/1931/problem/E) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1931/E%20-%20Anna%20and%20the%20Valentine's%20Day%20Gift/solution.cpp) |
 
 ### graphs
 
@@ -166,6 +167,7 @@
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.cpp) |
 | 1901A | [Line Trip](https://codeforces.com/contest/1901/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1901/A%20-%20Line%20Trip/solution.cpp) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.cpp) |
+| 1931E | [Anna and the Valentine's Day Gift](https://codeforces.com/contest/1931/problem/E) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1931/E%20-%20Anna%20and%20the%20Valentine's%20Day%20Gift/solution.cpp) |
 | 2185B | [Prefix Max](https://codeforces.com/contest/2185/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2185/B%20-%20Prefix%20Max/solution.cpp) |
 | 2193B | [Reverse a Permutation](https://codeforces.com/contest/2193/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2193/B%20-%20Reverse%20a%20Permutation/solution.cpp) |
 
@@ -228,6 +230,7 @@
 | 1877A | [Goals of Victory](https://codeforces.com/contest/1877/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1877/A%20-%20Goals%20of%20Victory/solution.cpp) |
 | 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.cpp) |
 | 1901A | [Line Trip](https://codeforces.com/contest/1901/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1901/A%20-%20Line%20Trip/solution.cpp) |
+| 1931E | [Anna and the Valentine's Day Gift](https://codeforces.com/contest/1931/problem/E) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1931/E%20-%20Anna%20and%20the%20Valentine's%20Day%20Gift/solution.cpp) |
 | 2086A | [Cloudberry Jam](https://codeforces.com/contest/2086/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2086/A%20-%20Cloudberry%20Jam/solution.cpp) |
 | 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.cpp) |
 | 2157B | [Expansion Plan 2](https://codeforces.com/contest/2157/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2157/B%20-%20Expansion%20Plan%202/solution.cpp) |
@@ -261,6 +264,7 @@
 | 1857D | [Strong Vertices](https://codeforces.com/contest/1857/problem/D) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1857/D%20-%20Strong%20Vertices/solution.cpp) |
 | 1896A | [Jagged Swaps](https://codeforces.com/contest/1896/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1896/A%20-%20Jagged%20Swaps/solution.cpp) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.cpp) |
+| 1931E | [Anna and the Valentine's Day Gift](https://codeforces.com/contest/1931/problem/E) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1931/E%20-%20Anna%20and%20the%20Valentine's%20Day%20Gift/solution.cpp) |
 | 2185C | [Shifted MEX](https://codeforces.com/contest/2185/problem/C) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2185/C%20-%20Shifted%20MEX/solution.cpp) |
 | 2191B | [MEX Reordering](https://codeforces.com/contest/2191/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2191/B%20-%20MEX%20Reordering/solution.cpp) |
 
