@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 83 | 20 |
+| 84 | 20 |
 
 ---
 
@@ -20,13 +20,13 @@
 - [constructive algorithms](#constructive-algorithms) (16)
 - [data structures](#data-structures) (4)
 - [dfs and similar](#dfs-and-similar) (1)
-- [dp](#dp) (5)
+- [dp](#dp) (6)
 - [games](#games) (3)
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (27)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (17)
-- [math](#math) (39)
+- [math](#math) (40)
 - [number theory](#number-theory) (9)
 - [sortings](#sortings) (11)
 - [strings](#strings) (5)
@@ -134,6 +134,7 @@
 |---|---------|------------|----------|
 | 665C | [Simple Strings](https://codeforces.com/contest/665/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/665/C%20-%20Simple%20Strings/solution.cpp) |
 | 1285B | [Just Eat It!](https://codeforces.com/contest/1285/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1285/B%20-%20Just%20Eat%20It!/solution.cpp) |
+| 1459B | [Move and Turn](https://codeforces.com/contest/1459/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1459/B%20-%20Move%20and%20Turn/solution.cpp) |
 | 1470A | [Strange Birthday Party](https://codeforces.com/contest/1470/problem/A) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1470/A%20-%20Strange%20Birthday%20Party/solution.cpp) |
 | 1703F | [Yet Another Problem About Pairs Satisfying an Inequality](https://codeforces.com/contest/1703/problem/F) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1703/F%20-%20Yet%20Another%20Problem%20About%20Pairs%20Satisfying%20an%20Inequality/solution.cpp) |
 | 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.cpp) |
@@ -228,6 +229,7 @@
 | 1366B | [Shuffle](https://codeforces.com/contest/1366/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1366/B%20-%20Shuffle/solution.cpp) |
 | 1372B | [Omkar and Last Class of Math](https://codeforces.com/contest/1372/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1372/B%20-%20Omkar%20and%20Last%20Class%20of%20Math/solution.cpp) |
 | 1389A | [LCM Problem](https://codeforces.com/contest/1389/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1389/A%20-%20LCM%20Problem/solution.cpp) |
+| 1459B | [Move and Turn](https://codeforces.com/contest/1459/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1459/B%20-%20Move%20and%20Turn/solution.cpp) |
 | 1601A | [Array Elimination](https://codeforces.com/contest/1601/problem/A) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1601/A%20-%20Array%20Elimination/solution.cpp) |
 | 1612C | [Chat Ban](https://codeforces.com/contest/1612/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1612/C%20-%20Chat%20Ban/solution.cpp) |
 | 1669H | [Maximal AND](https://codeforces.com/contest/1669/problem/H) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1669/H%20-%20Maximal%20AND/solution.cpp) |
