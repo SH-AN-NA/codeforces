@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 81 | 20 |
+| 82 | 20 |
 
 ---
 
@@ -17,17 +17,17 @@
 - [binary search](#binary-search) (7)
 - [bitmasks](#bitmasks) (4)
 - [brute force](#brute-force) (9)
-- [constructive algorithms](#constructive-algorithms) (15)
+- [constructive algorithms](#constructive-algorithms) (16)
 - [data structures](#data-structures) (4)
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (4)
 - [games](#games) (3)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (25)
+- [greedy](#greedy) (26)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (17)
-- [math](#math) (38)
-- [number theory](#number-theory) (8)
+- [math](#math) (39)
+- [number theory](#number-theory) (9)
 - [sortings](#sortings) (10)
 - [strings](#strings) (5)
 - [trees](#trees) (1)
@@ -97,6 +97,7 @@
 |---|---------|------------|----------|
 | 4B | [Before an Exam](https://codeforces.com/contest/4/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/4/B%20-%20Before%20an%20Exam/solution.cpp) |
 | 1337A | [Ichihime and Triangle](https://codeforces.com/contest/1337/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1337/A%20-%20Ichihime%20and%20Triangle/solution.cpp) |
+| 1389A | [LCM Problem](https://codeforces.com/contest/1389/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1389/A%20-%20LCM%20Problem/solution.cpp) |
 | 1775B | [Gardener and the Array](https://codeforces.com/contest/1775/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1775/B%20-%20Gardener%20and%20the%20Array/solution.cpp) |
 | 1831A | [Twin Permutations](https://codeforces.com/contest/1831/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1831/A%20-%20Twin%20Permutations/solution.cpp) |
 | 1837A | [Grasshopper on a Line](https://codeforces.com/contest/1837/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1837/A%20-%20Grasshopper%20on%20a%20Line/solution.cpp) |
@@ -161,6 +162,7 @@
 | 1285B | [Just Eat It!](https://codeforces.com/contest/1285/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1285/B%20-%20Just%20Eat%20It!/solution.cpp) |
 | 1294C | [Product of Three Numbers](https://codeforces.com/contest/1294/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1294/C%20-%20Product%20of%20Three%20Numbers/solution.cpp) |
 | 1372B | [Omkar and Last Class of Math](https://codeforces.com/contest/1372/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1372/B%20-%20Omkar%20and%20Last%20Class%20of%20Math/solution.cpp) |
+| 1389A | [LCM Problem](https://codeforces.com/contest/1389/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1389/A%20-%20LCM%20Problem/solution.cpp) |
 | 1561C | [Deep Down Below](https://codeforces.com/contest/1561/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1561/C%20-%20Deep%20Down%20Below/solution.cpp) |
 | 1601A | [Array Elimination](https://codeforces.com/contest/1601/problem/A) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1601/A%20-%20Array%20Elimination/solution.cpp) |
 | 1669H | [Maximal AND](https://codeforces.com/contest/1669/problem/H) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1669/H%20-%20Maximal%20AND/solution.cpp) |
@@ -222,6 +224,7 @@
 | 1360D | [Buying Shovels](https://codeforces.com/contest/1360/problem/D) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1360/D%20-%20Buying%20Shovels/solution.cpp) |
 | 1366B | [Shuffle](https://codeforces.com/contest/1366/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1366/B%20-%20Shuffle/solution.cpp) |
 | 1372B | [Omkar and Last Class of Math](https://codeforces.com/contest/1372/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1372/B%20-%20Omkar%20and%20Last%20Class%20of%20Math/solution.cpp) |
+| 1389A | [LCM Problem](https://codeforces.com/contest/1389/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1389/A%20-%20LCM%20Problem/solution.cpp) |
 | 1601A | [Array Elimination](https://codeforces.com/contest/1601/problem/A) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1601/A%20-%20Array%20Elimination/solution.cpp) |
 | 1612C | [Chat Ban](https://codeforces.com/contest/1612/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1612/C%20-%20Chat%20Ban/solution.cpp) |
 | 1669H | [Maximal AND](https://codeforces.com/contest/1669/problem/H) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1669/H%20-%20Maximal%20AND/solution.cpp) |
@@ -257,6 +260,7 @@
 | 1294C | [Product of Three Numbers](https://codeforces.com/contest/1294/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1294/C%20-%20Product%20of%20Three%20Numbers/solution.cpp) |
 | 1360D | [Buying Shovels](https://codeforces.com/contest/1360/problem/D) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1360/D%20-%20Buying%20Shovels/solution.cpp) |
 | 1372B | [Omkar and Last Class of Math](https://codeforces.com/contest/1372/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1372/B%20-%20Omkar%20and%20Last%20Class%20of%20Math/solution.cpp) |
+| 1389A | [LCM Problem](https://codeforces.com/contest/1389/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1389/A%20-%20LCM%20Problem/solution.cpp) |
 | 1601A | [Array Elimination](https://codeforces.com/contest/1601/problem/A) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1601/A%20-%20Array%20Elimination/solution.cpp) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1679/A%20-%20AvtoBus/solution.cpp) |
 | 1845A | [Forbidden Integer](https://codeforces.com/contest/1845/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1845/A%20-%20Forbidden%20Integer/solution.cpp) |
