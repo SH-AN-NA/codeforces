@@ -1,0 +1,26 @@
+<h2><a href="https://codeforces.com/contest/1119/problem/B" target="_blank" rel="noopener noreferrer">1119B — Alyona and a Narrow Fridge</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1300 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1119B](https://codeforces.com/contest/1119/problem/B) |
+
+## Topics
+`binary search` `flows` `greedy` `sortings`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Alyona and a Narrow Fridge</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Alyona has recently bought a miniature fridge that can be represented as a matrix with $$$h$$$ rows and $$$2$$$ columns. Initially there is only one shelf at the bottom of the fridge, but Alyona can install arbitrary number of shelves inside the fridge between any two rows. A shelf is two cells wide, does not occupy any space but separates the inside of the fridge to the lower and upper part.</p><center> <img class="tex-graphics" height="189px" src="https://espresso.codeforces.com/ab9ad5c7cf903368a083544a9990ca025f42bbcd.png" style="max-width: 100.0%;max-height: 100.0%;" width="62px"> <span class="tex-font-size-small">An example of a fridge with $$$h = 7$$$ and two shelves. The shelves are shown in black. The picture corresponds to the first example.</span> </center><p>Alyona has $$$n$$$ bottles of milk that she wants to put in the fridge. The $$$i$$$-th bottle is $$$a_i$$$ cells tall and $$$1$$$ cell wide. She can put a bottle on some shelf if the corresponding space above the shelf is at least as tall as the bottle. She can <span class="tex-font-style-bf">not</span> put a bottle on top of another bottle (if there is no shelf between them). Two bottles can not share a cell.</p><p>Alyona is interested in the largest integer $$$k$$$ such that she can put bottles $$$1$$$, $$$2$$$, ..., $$$k$$$ in the fridge at the same time. Find this largest $$$k$$$.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains two integers $$$n$$$ and $$$h$$$ ($$$1 \le n \le 10^3$$$, $$$1 \le h \le 10^9$$$) — the number of bottles and the height of the fridge.</p><p>The second line contains $$$n$$$ integers $$$a_1$$$, $$$a_2$$$, ..., $$$a_n$$$ ($$$1 \le a_i \le h$$$) — the heights of the bottles.</p></div><div class="output-specification"><div class="section-title">Output</div><p>Print the single integer $$$k$$$ — the maximum integer such that Alyona can put the bottles $$$1$$$, $$$2$$$, ..., $$$k$$$ in the fridge at the same time. If Alyona can put all bottles in the fridge, print $$$n$$$. It is easy to see that Alyona can always put at least one bottle in the fridge.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id009507949782307041" id="id009076901257623392" class="input-output-copier">Copy</div></div><pre id="id009507949782307041">5 7
+2 3 5 4 1
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id003490173983625203" id="id0022072499667289325" class="input-output-copier">Copy</div></div><pre id="id003490173983625203">3
+</pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0023172284357476192" id="id005473676871331513" class="input-output-copier">Copy</div></div><pre id="id0023172284357476192">10 10
+9 1 1 1 1 1 1 1 1 1
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id003412449051574291" id="id006012465501804762" class="input-output-copier">Copy</div></div><pre id="id003412449051574291">4
+</pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id004545506722851752" id="id002324159825382367" class="input-output-copier">Copy</div></div><pre id="id004545506722851752">5 10
+3 1 4 2 4
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id003719112083706019" id="id008193214764181718" class="input-output-copier">Copy</div></div><pre id="id003719112083706019">5
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>One of optimal locations in the first example is shown on the picture in the statement.</p><p>One of optimal locations in the second example is shown on the picture below.</p><center> <img class="tex-graphics" height="265px" src="https://espresso.codeforces.com/80615922dc9ebcaad73793369e3a5c45a76ce22d.png" style="max-width: 100.0%;max-height: 100.0%;" width="62px"> </center><p>One of optimal locations in the third example is shown on the picture below.</p><center> <img class="tex-graphics" height="265px" src="https://espresso.codeforces.com/1a32fe8d9e7b96857c15070f072bfd95db7e94c0.png" style="max-width: 100.0%;max-height: 100.0%;" width="62px"> </center></div>
