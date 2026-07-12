@@ -1,20 +1,76 @@
-<h2><a href="https://codeforces.com/contest/1925/problem/B" target="_blank" rel="noopener noreferrer">1925B — A Balanced Problemset?</a></h2>
-
-| | |
-|---|---|
-| **Difficulty** | 1200 |
-| **Language** | C++23 (GCC 14-64, msys2) |
-| **Verdict** | ✅ Accepted |
-| **Problem Link** | [Codeforces 1925B](https://codeforces.com/contest/1925/problem/B) |
-
-## Topics
-`brute force` `greedy` `math` `number theory`
-
----
-
-## Problem Statement
-
-<div class="header"><div class="title">B. A Balanced Problemset?</div><div class="time-limit"><div class="property-title">time limit per test</div>1.5 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Jay managed to create a problem of difficulty $$$x$$$ and decided to make it the second problem for Codeforces Round #921. </p><p>But Yash fears that this problem will make the contest highly unbalanced, and the coordinator will reject it. So, he decided to break it up into a problemset of $$$n$$$ sub-problems such that the difficulties of all the sub-problems are a positive integer and their sum is equal to $$$x$$$. </p><p>The coordinator, Aleksey, defines the balance of a problemset as the <a href="https://en.wikipedia.org/wiki/Greatest_common_divisor">GCD</a> of the difficulties of all sub-problems in the problemset. </p><p>Find the maximum balance that Yash can achieve if he chooses the difficulties of the sub-problems optimally.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line of input contains a single integer $$$t$$$ ($$$1\leq t\leq 10^3$$$) denoting the number of test cases.</p><p>Each test case contains a single line of input containing two integers $$$x$$$ ($$$1\leq x\leq 10^8$$$) and $$$n$$$ ($$$1\leq n\leq x$$$).</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print a single line containing a single integer denoting the maximum balance of the problemset Yash can achieve.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id007720955607409161" id="id0034202009781281184" class="input-output-copier">Copy</div></div><pre id="id007720955607409161"><div class="test-example-line test-example-line-even test-example-line-0">3</div><div class="test-example-line test-example-line-odd test-example-line-1">10 3</div><div class="test-example-line test-example-line-even test-example-line-2">5 5</div><div class="test-example-line test-example-line-odd test-example-line-3">420 69</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id005372217198520711" id="id006779976157906593" class="input-output-copier">Copy</div></div><pre id="id005372217198520711">2
-1
-6
-</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>For the first test case, one possible way is to break up the problem of difficulty $$$10$$$ into a problemset having three problems of difficulties $$$4$$$, $$$2$$$ and $$$4$$$ respectively, giving a balance equal to $$$2$$$.</p><p>For the second test case, there is only one way to break up the problem of difficulty $$$5$$$ into a problemset of $$$5$$$ problems with each problem having a difficulty $$$1$$$ giving a balance equal to $$$1$$$.</p></div>
+#include <bits/stdc++.h>
+using namespace std;
+ 
+//    ================== ⚡          ⚡ ==================
+// Author: Shoumik 25CS10034
+// Contest: Contest Name
+// Problem: B_A_Balanced_Problemset
+// Rating: Rating
+// =============================================================
+ 
+#define fast ios::sync_with_stdio(false); cin.tie(NULL);
+#define ll long long
+#define ld long double
+#define pb push_back
+#define all(x) (x).begin(), (x).end()
+#define rall(x) (x).rbegin(), (x).rend()
+#define sz(x) ((int)(x).size())
+ 
+// Loops (0-n), (n-0), (1-n), (n-1)
+#define rep(i, a, b) for(int i = a; i < b; ++i)
+#define for0(i, n) for(int i = 0; i < n; ++i)          // 0 to n-1
+#define forn(i, n) for(int i = n; i >= 0; --i)         // n down to 0
+#define for1(i, n) for(int i = 1; i <= n; ++i)         // 1 to n
+#define for1n(i, n) for(int i = n; i >= 1; --i)        // n down to 1
+ 
+// Vector Helpers
+#define vecInput(v) for(auto &i : v) cin >> i;
+#define vecOutput(v) for(const auto &i : v) cout << i << ' '; cout << '
+';
+ 
+// Fast I/O Helpers
+#define YES cout << "YES" << '
+';
+#define NO cout << "NO" << '
+';
+ 
+// Debugger (Runs locally with -DLOCAL flag)
+#ifdef LOCAL
+#define deb(x) cerr << #x << " = " << x << endl;
+#else
+#define deb(x)
+#endif
+ 
+const int MOD = 1e9 + 7;
+const ll INF = 1e18;
+ 
+// Safe Modular Arithmetic Helpers
+ll modAdd(ll a, ll b) { return ((a % MOD) + (b % MOD)) % MOD; }
+ll modMul(ll a, ll b) { return ((a % MOD) * (b % MOD)) % MOD; }
+ 
+void solve() {
+    ll x , n ;
+    cin >> x >> n ;
+    ll sol = 0 ;
+    for(int i = 1 ; i*i <= x ; i++) {
+        if(x%i == 0) {
+            if(i <= x/n)
+                sol = max(sol,(ll)i) ;
+            if(x/i <= x/n)
+                sol = max(sol,x/i) ;
+        }
+    }
+    // return sol ;
+    cout << sol << '
+' ;
+}
+ 
+int main() {
+    fast;
+    int t = 1;
+    cin >> t;
+    while(t--) {
+        solve();
+    }
+    return 0;
+}
