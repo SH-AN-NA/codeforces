@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 88 | 21 |
+| 89 | 21 |
 
 ---
 
@@ -24,7 +24,7 @@
 - [flows](#flows) (1)
 - [games](#games) (3)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (29)
+- [greedy](#greedy) (30)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (17)
 - [math](#math) (41)
@@ -32,7 +32,7 @@
 - [sortings](#sortings) (12)
 - [strings](#strings) (5)
 - [trees](#trees) (1)
-- [two pointers](#two-pointers) (6)
+- [two pointers](#two-pointers) (7)
 
 ---
 
@@ -176,6 +176,7 @@
 | 1119B | [Alyona and a Narrow Fridge](https://codeforces.com/contest/1119/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1119/B%20-%20Alyona%20and%20a%20Narrow%20Fridge/solution.cpp) |
 | 1285B | [Just Eat It!](https://codeforces.com/contest/1285/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1285/B%20-%20Just%20Eat%20It!/solution.cpp) |
 | 1294C | [Product of Three Numbers](https://codeforces.com/contest/1294/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1294/C%20-%20Product%20of%20Three%20Numbers/solution.cpp) |
+| 1364B | [Most socially-distanced subsequence](https://codeforces.com/contest/1364/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1364/B%20-%20Most%20socially-distanced%20subsequence/solution.cpp) |
 | 1372B | [Omkar and Last Class of Math](https://codeforces.com/contest/1372/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1372/B%20-%20Omkar%20and%20Last%20Class%20of%20Math/solution.cpp) |
 | 1389A | [LCM Problem](https://codeforces.com/contest/1389/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1389/A%20-%20LCM%20Problem/solution.cpp) |
 | 1470A | [Strange Birthday Party](https://codeforces.com/contest/1470/problem/A) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1470/A%20-%20Strange%20Birthday%20Party/solution.cpp) |
@@ -324,6 +325,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1237B | [Balanced Tunnel](https://codeforces.com/contest/1237/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1237/B%20-%20Balanced%20Tunnel/solution.cpp) |
+| 1364B | [Most socially-distanced subsequence](https://codeforces.com/contest/1364/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1364/B%20-%20Most%20socially-distanced%20subsequence/solution.cpp) |
 | 1366B | [Shuffle](https://codeforces.com/contest/1366/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1366/B%20-%20Shuffle/solution.cpp) |
 | 1470A | [Strange Birthday Party](https://codeforces.com/contest/1470/problem/A) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1470/A%20-%20Strange%20Birthday%20Party/solution.cpp) |
 | 1794C | [Scoring Subsequences](https://codeforces.com/contest/1794/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1794/C%20-%20Scoring%20Subsequences/solution.cpp) |
