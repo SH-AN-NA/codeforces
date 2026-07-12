@@ -53,9 +53,8 @@ void solve() {
     vector<int> a(n) , sol ;
     vecInput(a)
  
-    for0(i,n) {
+    for0(i,n) { 
         int l = 0 , r = i ; // 
- 
         while(l<=r) {
             int mid = (l+r)/2 ;
  
@@ -66,8 +65,8 @@ void solve() {
         }
         sol.pb(r+1) ;
  
-        
-    }
+    }  
+    
     vecOutput(sol) ;
 }
  
