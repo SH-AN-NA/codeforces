@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 94 | 21 |
+| 95 | 21 |
 
 ---
 
@@ -19,14 +19,14 @@
 - [brute force](#brute-force) (11)
 - [constructive algorithms](#constructive-algorithms) (16)
 - [data structures](#data-structures) (4)
-- [dfs and similar](#dfs-and-similar) (1)
+- [dfs and similar](#dfs-and-similar) (2)
 - [dp](#dp) (7)
 - [flows](#flows) (1)
 - [games](#games) (3)
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (31)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (19)
+- [implementation](#implementation) (20)
 - [math](#math) (45)
 - [number theory](#number-theory) (10)
 - [sortings](#sortings) (12)
@@ -133,6 +133,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 445A | [DZY Loves Chessboard](https://codeforces.com/contest/445/problem/A) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/445/A%20-%20DZY%20Loves%20Chessboard/solution.cpp) |
 | 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.cpp) |
 
 ### dp
@@ -224,6 +225,7 @@
 | 263A | [Beautiful Matrix](https://codeforces.com/contest/263/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/263/A%20-%20Beautiful%20Matrix/solution.cpp) |
 | 272A | [Dima and Friends](https://codeforces.com/contest/272/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/272/A%20-%20Dima%20and%20Friends/solution.cpp) |
 | 282A | [Bit++](https://codeforces.com/contest/282/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/282/A%20-%20Bit%2B%2B/solution.cpp) |
+| 445A | [DZY Loves Chessboard](https://codeforces.com/contest/445/problem/A) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/445/A%20-%20DZY%20Loves%20Chessboard/solution.cpp) |
 | 808B | [Average Sleep Time](https://codeforces.com/contest/808/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/808/B%20-%20Average%20Sleep%20Time/solution.cpp) |
 | 1285B | [Just Eat It!](https://codeforces.com/contest/1285/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1285/B%20-%20Just%20Eat%20It!/solution.cpp) |
 | 1845A | [Forbidden Integer](https://codeforces.com/contest/1845/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1845/A%20-%20Forbidden%20Integer/solution.cpp) |
