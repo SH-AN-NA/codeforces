@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 106 | 21 |
+| 107 | 21 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (1)
 - [Uncategorized](#uncategorized) (21)
-- [binary search](#binary-search) (10)
+- [binary search](#binary-search) (11)
 - [bitmasks](#bitmasks) (4)
 - [brute force](#brute-force) (11)
 - [constructive algorithms](#constructive-algorithms) (16)
@@ -24,10 +24,10 @@
 - [flows](#flows) (1)
 - [games](#games) (3)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (32)
+- [greedy](#greedy) (33)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (21)
-- [math](#math) (45)
+- [math](#math) (46)
 - [number theory](#number-theory) (10)
 - [sortings](#sortings) (12)
 - [strings](#strings) (5)
@@ -82,6 +82,7 @@
 | 1904C | [Array Game](https://codeforces.com/contest/1904/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1904/C%20-%20Array%20Game/solution.cpp) |
 | 1907D | [Jumping Through Segments](https://codeforces.com/contest/1907/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1907/D%20-%20Jumping%20Through%20Segments/solution.cpp) |
 | 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.cpp) |
+| 2232B | [Cake Leveling](https://codeforces.com/contest/2232/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2232/B%20-%20Cake%20Leveling/solution.cpp) |
 
 ### bitmasks
 
@@ -212,6 +213,7 @@
 | 1931E | [Anna and the Valentine's Day Gift](https://codeforces.com/contest/1931/problem/E) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1931/E%20-%20Anna%20and%20the%20Valentine's%20Day%20Gift/solution.cpp) |
 | 2185B | [Prefix Max](https://codeforces.com/contest/2185/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2185/B%20-%20Prefix%20Max/solution.cpp) |
 | 2193B | [Reverse a Permutation](https://codeforces.com/contest/2193/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2193/B%20-%20Reverse%20a%20Permutation/solution.cpp) |
+| 2232B | [Cake Leveling](https://codeforces.com/contest/2232/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2232/B%20-%20Cake%20Leveling/solution.cpp) |
 | 2245B | [Delete and Concatenate](https://codeforces.com/contest/2245/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2245/B%20-%20Delete%20and%20Concatenate/solution.cpp) |
 
 ### hashing
@@ -295,6 +297,7 @@
 | 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.cpp) |
 | 2185A | [Perfect Root](https://codeforces.com/contest/2185/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2185/A%20-%20Perfect%20Root/solution.cpp) |
 | 2193A | [DBMB and the Array](https://codeforces.com/contest/2193/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2193/A%20-%20DBMB%20and%20the%20Array/solution.cpp) |
+| 2232B | [Cake Leveling](https://codeforces.com/contest/2232/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2232/B%20-%20Cake%20Leveling/solution.cpp) |
 
 ### number theory
 
