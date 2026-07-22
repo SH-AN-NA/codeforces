@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 109 | 21 |
+| 110 | 21 |
 
 ---
 
@@ -26,7 +26,7 @@
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (33)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (22)
+- [implementation](#implementation) (23)
 - [math](#math) (47)
 - [number theory](#number-theory) (11)
 - [sortings](#sortings) (12)
@@ -234,6 +234,7 @@
 | 136A | [Presents](https://codeforces.com/contest/136/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/136/A%20-%20Presents/solution.cpp) |
 | 151A | [Soft Drinking](https://codeforces.com/contest/151/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/151/A%20-%20Soft%20Drinking/solution.cpp) |
 | 158A | [Next Round](https://codeforces.com/contest/158/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/158/A%20-%20Next%20Round/solution.cpp) |
+| 165A | [Supercentral Point](https://codeforces.com/contest/165/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/165/A%20-%20Supercentral%20Point/solution.cpp) |
 | 218B | [Airport](https://codeforces.com/contest/218/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/218/B%20-%20Airport/solution.cpp) |
 | 227B | [Effective Approach](https://codeforces.com/contest/227/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/227/B%20-%20Effective%20Approach/solution.cpp) |
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.cpp) |
