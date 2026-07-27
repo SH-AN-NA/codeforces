@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 112 | 21 |
+| 113 | 21 |
 
 ---
 
@@ -26,8 +26,8 @@
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (33)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (23)
-- [math](#math) (48)
+- [implementation](#implementation) (24)
+- [math](#math) (49)
 - [number theory](#number-theory) (12)
 - [sortings](#sortings) (13)
 - [strings](#strings) (5)
@@ -253,6 +253,7 @@
 | 1915A | [Odd One Out](https://codeforces.com/contest/1915/problem/A) | 800 | [GNU C11](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1915/A%20-%20Odd%20One%20Out/solution.c) |
 | 2157B | [Expansion Plan 2](https://codeforces.com/contest/2157/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2157/B%20-%20Expansion%20Plan%202/solution.cpp) |
 | 2185C | [Shifted MEX](https://codeforces.com/contest/2185/problem/C) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2185/C%20-%20Shifted%20MEX/solution.cpp) |
+| 2250A | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2250/A%20-%20Threshold%20Movement/solution.cpp) |
 
 ### math
 
@@ -306,6 +307,7 @@
 | 2193A | [DBMB and the Array](https://codeforces.com/contest/2193/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2193/A%20-%20DBMB%20and%20the%20Array/solution.cpp) |
 | 2204C | [Spring](https://codeforces.com/contest/2204/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2204/C%20-%20Spring/solution.cpp) |
 | 2232B | [Cake Leveling](https://codeforces.com/contest/2232/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2232/B%20-%20Cake%20Leveling/solution.cpp) |
+| 2250A | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2250/A%20-%20Threshold%20Movement/solution.cpp) |
 
 ### number theory
 
