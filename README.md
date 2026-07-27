@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 113 | 21 |
+| 114 | 21 |
 
 ---
 
@@ -17,7 +17,7 @@
 - [binary search](#binary-search) (11)
 - [bitmasks](#bitmasks) (4)
 - [brute force](#brute-force) (13)
-- [constructive algorithms](#constructive-algorithms) (16)
+- [constructive algorithms](#constructive-algorithms) (17)
 - [data structures](#data-structures) (5)
 - [dfs and similar](#dfs-and-similar) (2)
 - [dp](#dp) (8)
@@ -131,6 +131,7 @@
 | 2188A | [Divisible Permutation](https://codeforces.com/contest/2188/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2188/A%20-%20Divisible%20Permutation/solution.cpp) |
 | 2191A | [Array Coloring](https://codeforces.com/contest/2191/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2191/A%20-%20Array%20Coloring/solution.cpp) |
 | 2191B | [MEX Reordering](https://codeforces.com/contest/2191/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2191/B%20-%20MEX%20Reordering/solution.cpp) |
+| 2250B | [String Construction](https://codeforces.com/contest/2250/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2250/B%20-%20String%20Construction/solution.cpp) |
 
 ### data structures
 
