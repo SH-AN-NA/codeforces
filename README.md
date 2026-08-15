@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 123 | 21 |
+| 124 | 21 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [Uncategorized](#uncategorized) (29)
 - [binary search](#binary-search) (11)
 - [bitmasks](#bitmasks) (4)
-- [brute force](#brute-force) (13)
+- [brute force](#brute-force) (14)
 - [constructive algorithms](#constructive-algorithms) (17)
 - [data structures](#data-structures) (5)
 - [dfs and similar](#dfs-and-similar) (2)
@@ -26,11 +26,11 @@
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (34)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (24)
+- [implementation](#implementation) (25)
 - [math](#math) (49)
 - [number theory](#number-theory) (12)
 - [sortings](#sortings) (14)
-- [strings](#strings) (5)
+- [strings](#strings) (6)
 - [trees](#trees) (1)
 - [two pointers](#two-pointers) (8)
 
@@ -110,6 +110,7 @@
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.cpp) |
 | 352A | [Jeff and Digits](https://codeforces.com/contest/352/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/352/A%20-%20Jeff%20and%20Digits/solution.cpp) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1679/A%20-%20AvtoBus/solution.cpp) |
+| 1748B | [Diverse Substrings](https://codeforces.com/contest/1748/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1748/B%20-%20Diverse%20Substrings/solution.cpp) |
 | 1759D | [Make It Round](https://codeforces.com/contest/1759/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1759/D%20-%20Make%20It%20Round/solution.cpp) |
 | 1853A | [Desorting](https://codeforces.com/contest/1853/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1853/A%20-%20Desorting/solution.cpp) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.cpp) |
@@ -257,6 +258,7 @@
 | 445A | [DZY Loves Chessboard](https://codeforces.com/contest/445/problem/A) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/445/A%20-%20DZY%20Loves%20Chessboard/solution.cpp) |
 | 808B | [Average Sleep Time](https://codeforces.com/contest/808/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/808/B%20-%20Average%20Sleep%20Time/solution.cpp) |
 | 1285B | [Just Eat It!](https://codeforces.com/contest/1285/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1285/B%20-%20Just%20Eat%20It!/solution.cpp) |
+| 1748B | [Diverse Substrings](https://codeforces.com/contest/1748/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1748/B%20-%20Diverse%20Substrings/solution.cpp) |
 | 1845A | [Forbidden Integer](https://codeforces.com/contest/1845/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1845/A%20-%20Forbidden%20Integer/solution.cpp) |
 | 1873C | [Target Practice](https://codeforces.com/contest/1873/problem/C) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1873/C%20-%20Target%20Practice/solution.cpp) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.cpp) |
@@ -363,6 +365,7 @@
 | 112A | [Petya and Strings](https://codeforces.com/contest/112/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/112/A%20-%20Petya%20and%20Strings/solution.cpp) |
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.cpp) |
 | 665C | [Simple Strings](https://codeforces.com/contest/665/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/665/C%20-%20Simple%20Strings/solution.cpp) |
+| 1748B | [Diverse Substrings](https://codeforces.com/contest/1748/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1748/B%20-%20Diverse%20Substrings/solution.cpp) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.cpp) |
 
 ### trees
