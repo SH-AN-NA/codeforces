@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 126 | 21 |
+| 127 | 21 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [Uncategorized](#uncategorized) (31)
 - [binary search](#binary-search) (11)
 - [bitmasks](#bitmasks) (4)
-- [brute force](#brute-force) (14)
+- [brute force](#brute-force) (15)
 - [constructive algorithms](#constructive-algorithms) (17)
 - [data structures](#data-structures) (5)
 - [dfs and similar](#dfs-and-similar) (2)
@@ -30,7 +30,7 @@
 - [math](#math) (49)
 - [number theory](#number-theory) (12)
 - [sortings](#sortings) (14)
-- [strings](#strings) (6)
+- [strings](#strings) (7)
 - [trees](#trees) (1)
 - [two pointers](#two-pointers) (8)
 
@@ -121,6 +121,7 @@
 | 2050C | [Uninteresting Number](https://codeforces.com/contest/2050/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2050/C%20-%20Uninteresting%20Number/solution.cpp) |
 | 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.cpp) |
 | 2193A | [DBMB and the Array](https://codeforces.com/contest/2193/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2193/A%20-%20DBMB%20and%20the%20Array/solution.cpp) |
+| 2257A | [Creating Abbreviations](https://codeforces.com/contest/2257/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2257/A%20-%20Creating%20Abbreviations/solution.cpp) |
 
 ### constructive algorithms
 
@@ -369,6 +370,7 @@
 | 665C | [Simple Strings](https://codeforces.com/contest/665/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/665/C%20-%20Simple%20Strings/solution.cpp) |
 | 1748B | [Diverse Substrings](https://codeforces.com/contest/1748/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1748/B%20-%20Diverse%20Substrings/solution.cpp) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.cpp) |
+| 2257A | [Creating Abbreviations](https://codeforces.com/contest/2257/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/dasshoumik95-ai/codeforces/blob/HEAD/2257/A%20-%20Creating%20Abbreviations/solution.cpp) |
 
 ### trees
 
